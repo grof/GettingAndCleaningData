@@ -13,7 +13,7 @@ The zip file that contains the source data for this project contains a number of
  * 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ### Source data structure
-David Hood, one of the community TAs, produce the following diagram that clearly depicts how the various files are related. I added some numbering to relate to the transformation steps described next.
+David Hood, one of the community TAs, produce the following diagram that clearly depicts how the various files are related.
 
 ![File Structure](/images/Slide2.png)
 
@@ -24,7 +24,7 @@ The original data set has the name of each measurement stored in file features.t
 
 _Reading in training and test data and naming columns__
 
-We extract a vector called "colNames" to us as the value of `col.names` when reading the training (train/X_train.txt) and test (test/X_test.txt) data sets.  We end up with two data frames that have the same column names.
+We extract a vector called "colNames" to us as the value of `col.names` when reading the training (train/X_train.txt) and test (test/X_test.txt) data sets.  We prefix each column name with "mean-" as our end goal is to provide the mean value of each measurement. We end up with two data frames that have the same column names.
 
 __Merging the training and test data sets to create the main table__
 
