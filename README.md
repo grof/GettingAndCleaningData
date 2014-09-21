@@ -20,7 +20,7 @@ As requestd in the project, the `run_analysis.R` reads in various files from the
  * add Subject information to the main table
  * add Activity information to the main table
  * grouping data by Subject and Activity, generate a summary table that provides the mean of each measurement.
- * write summary table to file "subject-activity-means.txt"
+ * write summary table to file "[subject-activity-means.txt](subject-activity-means.txt)"
 
 ## Running the script from the R command line:
  * `cd` to the root of this project directory
