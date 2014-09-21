@@ -24,9 +24,13 @@ As requestd in the project, the `run_analysis.R` reads in various files from the
  * grouping data by Subject and Activity, generate a summary table that provides the mean of each measurement.
  * write summary table to file "subject-activity-means.txt"
 
-## Running the script
+## Running the script from the R command line:
  * `cd` to the root of this project directory
- * 
-From R or RStudio, simply type `source (
+ * from R, simply type `source ('./run-analysis.R')`
+ 
+## Running the script from RStudio:
+ * Start RStudio
+ * Set the working directory to the root of this project directory
+ * type `source ('./run-analysis.R')` in the console
 
 
