@@ -1,5 +1,3 @@
-README.MD
-
 As the project description said, one of the most exciting areas in all of data science right now is wearable computing.  The `run_analysis.R` script submitted for this project reads data collected from the accelerometers from the Samsung Galaxy S smartphone and outputs a summary file that provides the mean of each measurement grouped by Subject and Activity.
 
 Ddata for the project was obtained from: 
