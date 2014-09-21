@@ -73,86 +73,82 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals)."
 
-
-
-
-
-1 tBodyAcc-mean()-X
-2 tBodyAcc-mean()-Y
-3 tBodyAcc-mean()-Z
-41 tGravityAcc-mean()-X
-42 tGravityAcc-mean()-Y
-43 tGravityAcc-mean()-Z
-81 tBodyAccJerk-mean()-X
-82 tBodyAccJerk-mean()-Y
-83 tBodyAccJerk-mean()-Z
-121 tBodyGyro-mean()-X
-122 tBodyGyro-mean()-Y
-123 tBodyGyro-mean()-Z
-161 tBodyGyroJerk-mean()-X
-162 tBodyGyroJerk-mean()-Y
-163 tBodyGyroJerk-mean()-Z
-201 tBodyAccMag-mean()
-214 tGravityAccMag-mean()
-227 tBodyAccJerkMag-mean()
-240 tBodyGyroMag-mean()
-253 tBodyGyroJerkMag-mean()
-266 fBodyAcc-mean()-X
-267 fBodyAcc-mean()-Y
-268 fBodyAcc-mean()-Z
-294 fBodyAcc-meanFreq()-X
-295 fBodyAcc-meanFreq()-Y
-296 fBodyAcc-meanFreq()-Z
-345 fBodyAccJerk-mean()-X
-346 fBodyAccJerk-mean()-Y
-347 fBodyAccJerk-mean()-Z
-373 fBodyAccJerk-meanFreq()-X
-374 fBodyAccJerk-meanFreq()-Y
-375 fBodyAccJerk-meanFreq()-Z
-424 fBodyGyro-mean()-X
-425 fBodyGyro-mean()-Y
-426 fBodyGyro-mean()-Z
-452 fBodyGyro-meanFreq()-X
-453 fBodyGyro-meanFreq()-Y
-454 fBodyGyro-meanFreq()-Z
-503 fBodyAccMag-mean()
-513 fBodyAccMag-meanFreq()
-516 fBodyBodyAccJerkMag-mean()
-526 fBodyBodyAccJerkMag-meanFreq()
-529 fBodyBodyGyroMag-mean()
-539 fBodyBodyGyroMag-meanFreq()
-542 fBodyBodyGyroJerkMag-mean()
-552 fBodyBodyGyroJerkMag-meanFreq()
-4 tBodyAcc-std()-X
-5 tBodyAcc-std()-Y
-6 tBodyAcc-std()-Z
-44 tGravityAcc-std()-X
-45 tGravityAcc-std()-Y
-46 tGravityAcc-std()-Z
-84 tBodyAccJerk-std()-X
-85 tBodyAccJerk-std()-Y
-86 tBodyAccJerk-std()-Z
-124 tBodyGyro-std()-X
-125 tBodyGyro-std()-Y
-126 tBodyGyro-std()-Z
-164 tBodyGyroJerk-std()-X
-165 tBodyGyroJerk-std()-Y
-166 tBodyGyroJerk-std()-Z
-202 tBodyAccMag-std()
-215 tGravityAccMag-std()
-228 tBodyAccJerkMag-std()
-241 tBodyGyroMag-std()
-254 tBodyGyroJerkMag-std()
-269 fBodyAcc-std()-X
-270 fBodyAcc-std()-Y
-271 fBodyAcc-std()-Z
-348 fBodyAccJerk-std()-X
-349 fBodyAccJerk-std()-Y
-350 fBodyAccJerk-std()-Z
-427 fBodyGyro-std()-X
-428 fBodyGyro-std()-Y
-429 fBodyGyro-std()-Z
-504 fBodyAccMag-std()
-517 fBodyBodyAccJerkMag-std()
-530 fBodyBodyGyroMag-std()
-543 fBodyBodyGyroJerkMag-std()
+ * mean-tBodyAcc-mean()-X
+ * mean-tBodyAcc-mean()-Y
+ * mean-tBodyAcc-mean()-Z
+ * mean-tBodyAcc-std()-X
+ * mean-tBodyAcc-std()-Y
+ * mean-tBodyAcc-std()-Z
+ * mean-tGravityAcc-mean()-X
+ * mean-tGravityAcc-mean()-Y
+ * mean-tGravityAcc-mean()-Z
+ * mean-tGravityAcc-std()-X
+ * mean-tGravityAcc-std()-Y
+ * mean-tGravityAcc-std()-Z
+ * mean-tBodyAccJerk-mean()-X
+ * mean-tBodyAccJerk-mean()-Y
+ * mean-tBodyAccJerk-mean()-Z
+ * mean-tBodyAccJerk-std()-X
+ * mean-tBodyAccJerk-std()-Y
+ * mean-tBodyAccJerk-std()-Z
+ * mean-tBodyGyro-mean()-X
+ * mean-tBodyGyro-mean()-Y
+ * mean-tBodyGyro-mean()-Z
+ * mean-tBodyGyro-std()-X
+ * mean-tBodyGyro-std()-Y
+ * mean-tBodyGyro-std()-Z
+ * mean-tBodyGyroJerk-mean()-X
+ * mean-tBodyGyroJerk-mean()-Y
+ * mean-tBodyGyroJerk-mean()-Z
+ * mean-tBodyGyroJerk-std()-X
+ * mean-tBodyGyroJerk-std()-Y
+ * mean-tBodyGyroJerk-std()-Z
+ * mean-tBodyAccMag-mean()
+ * mean-tBodyAccMag-std()
+ * mean-tGravityAccMag-mean()
+ * mean-tGravityAccMag-std()
+ * mean-tBodyAccJerkMag-mean()
+ * mean-tBodyAccJerkMag-std()
+ * mean-tBodyGyroMag-mean()
+ * mean-tBodyGyroMag-std()
+ * mean-tBodyGyroJerkMag-mean()
+ * mean-tBodyGyroJerkMag-std()
+ * mean-fBodyAcc-mean()-X
+ * mean-fBodyAcc-mean()-Y
+ * mean-fBodyAcc-mean()-Z
+ * mean-fBodyAcc-std()-X
+ * mean-fBodyAcc-std()-Y
+ * mean-fBodyAcc-std()-Z
+ * mean-fBodyAcc-meanFreq()-X
+ * mean-fBodyAcc-meanFreq()-Y
+ * mean-fBodyAcc-meanFreq()-Z
+ * mean-fBodyAccJerk-mean()-X
+ * mean-fBodyAccJerk-mean()-Y
+ * mean-fBodyAccJerk-mean()-Z
+ * mean-fBodyAccJerk-std()-X
+ * mean-fBodyAccJerk-std()-Y
+ * mean-fBodyAccJerk-std()-Z
+ * mean-fBodyAccJerk-meanFreq()-X
+ * mean-fBodyAccJerk-meanFreq()-Y
+ * mean-fBodyAccJerk-meanFreq()-Z
+ * mean-fBodyGyro-mean()-X
+ * mean-fBodyGyro-mean()-Y
+ * mean-fBodyGyro-mean()-Z
+ * mean-fBodyGyro-std()-X
+ * mean-fBodyGyro-std()-Y
+ * mean-fBodyGyro-std()-Z
+ * mean-fBodyGyro-meanFreq()-X
+ * mean-fBodyGyro-meanFreq()-Y
+ * mean-fBodyGyro-meanFreq()-Z
+ * mean-fBodyAccMag-mean()
+ * mean-fBodyAccMag-std()
+ * mean-fBodyAccMag-meanFreq()
+ * mean-fBodyBodyAccJerkMag-mean()
+ * mean-fBodyBodyAccJerkMag-std()
+ * mean-fBodyBodyAccJerkMag-meanFreq()
+ * mean-fBodyBodyGyroMag-mean()
+ * mean-fBodyBodyGyroMag-std()
+ * mean-fBodyBodyGyroMag-meanFreq()
+ * mean-fBodyBodyGyroJerkMag-mean()
+ * mean-fBodyBodyGyroJerkMag-std()
+ * mean-fBodyBodyGyroJerkMag-meanFreq()
